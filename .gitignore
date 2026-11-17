@@ -6,3 +6,12 @@ config_db.inc.php
 **/._*
 upload_area/**
 .env
+
+# Local TestLink data and maintenance artifacts (may contain credentials)
+/todo_revision/
+/todo_db.php
+/acceso-casos-import.xml
+/debug.log
+.env.*
+!.env.example
+/.netlify/
