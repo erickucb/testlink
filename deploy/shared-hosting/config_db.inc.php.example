@@ -1,0 +1,9 @@
+<?php
+// Copy to config_db.inc.php ONLY on the hosting account, then fill in its values.
+// Never commit the filled-in file. Never use the local XAMPP database account.
+define('DB_TYPE', 'mysql');
+define('DB_HOST', 'localhost');
+define('DB_NAME', 'REPLACE_WITH_HOSTING_DATABASE');
+define('DB_USER', 'REPLACE_WITH_HOSTING_DATABASE_USER');
+define('DB_PASS', 'REPLACE_WITH_NEW_HOSTING_PASSWORD');
+define('DB_TABLE_PREFIX', '');

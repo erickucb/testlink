@@ -1,0 +1,9 @@
+<?php
+// Hosting-only template. Set actual private writable paths outside httpdocs.
+$tlCfg->log_path = '/REPLACE_WITH_PRIVATE_PATH/testlink-data/logs/';
+$g_repositoryPath = '/REPLACE_WITH_PRIVATE_PATH/testlink-data/upload_area/';
+$tlCfg->authentication['method'] = 'DB';
+$tlCfg->authentication['SSO_enabled'] = false;
+$tlCfg->user_self_signup = false;
+$tlCfg->treemenu_show_testcase_id = false;
+$tlCfg->UDFStripHTMLTags = true;
