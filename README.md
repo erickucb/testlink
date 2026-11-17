@@ -1,3 +1,15 @@
+# Práctica #3 – Todo.ly con TestLink
+
+Proyecto académico basado en TestLink 1.9.20 (PHP y MariaDB/MySQL).
+
+**Para abrir el trabajo en otra computadora:** sigue la
+[guía de instalación y restauración](docs/ABRIR_PROYECTO_AMIGO.md).
+Incluye los pasos para XAMPP y para restaurar la base privada del propietario.
+Las suites, casos y planes se guardan en MySQL, no en Git. Solicita el respaldo
+por un canal privado; este repositorio no contiene las credenciales ni los datos.
+
+La documentación original de TestLink continúa a continuación.
+
 # IMPORTANT NOTICE
 1.9.20 will be the last version of the 1.9.x family.  
 
